@@ -1,18 +1,18 @@
-# 3a4 Azure Speech Synthesizer - Streamlit App
+# Azure Speech Synthesizer - Streamlit App
 
 A modern, user-friendly Streamlit application that converts text to speech using Azure AI Speech Service with multiple language and voice options.
 
 ## Features
 
-728 **Key Features:**
-- 4dd Text-to-speech conversion using Azure AI Speech SDK
-- 30d Support for 8+ languages (English, Spanish, French, German, Italian, Japanese, Portuguese, Mandarin Chinese)
-- 524 Multiple voice options per language (Male/Female voices)
-- 39ae0f Adjustable speech rate (0.5x to 2.0x speed)
-- 50a Real-time audio playback
-- 197e0f Download synthesized speech as WAV files
-- 510 Secure credential handling
-- 3a8 Beautiful, modern UI with Streamlit
+**Key Features:**
+- Text-to-speech conversion using Azure AI Speech SDK
+- Support for 8+ languages (English, Spanish, French, German, Italian, Japanese, Portuguese, Mandarin Chinese)
+- Multiple voice options per language (Male/Female voices)
+- Adjustable speech rate (0.5x to 2.0x speed)
+- Real-time audio playback
+- Download synthesized speech as WAV files
+- Secure credential handling
+- Beautiful, modern UI with Streamlit
 
 ## Prerequisites
 
@@ -101,12 +101,12 @@ The app will open in your default web browser at `http://localhost:8501`
    - Maximum 1000 characters
 
 5. **Synthesize**
-   - Click the "50a Synthesize Speech" button
+   - Click the "Synthesize Speech" button
    - Wait for the synthesis to complete
    - Listen to the audio in the player
 
 6. **Download (Optional)**
-   - Click "197e0f Download Audio" to save the audio as a WAV file
+   - Click "Download Audio" to save the audio as a WAV file
 
 ## Available Voices
 
@@ -119,7 +119,7 @@ The app will open in your default web browser at `http://localhost:8501`
 - **Mexico**: Jorge, Larissa
 
 ### French
-- **France**: Bénédict, Coralie, Denise, Henri
+- **France**: Benédict, Coralie, Denise, Henri
 - **Canada**: Antoine, Brynne
 
 ### German
@@ -164,7 +164,7 @@ The app will open in your default web browser at `http://localhost:8501`
 
 ## Security Best Practices
 
-512 **Important Security Notes:**
+**Important Security Notes:**
 - Never commit `.env` file with real credentials to version control
 - Use `.gitignore` to exclude `.env` file
 - Consider using Azure Managed Identity in production
@@ -248,4 +248,4 @@ For issues with:
 
 ---
 
-**Made with 64e0f using Streamlit and Azure AI Speech Services**
+**Made with love using Streamlit and Azure AI Speech Services**
